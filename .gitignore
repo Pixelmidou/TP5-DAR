@@ -1,31 +1,13 @@
-# 1. Ignore absolutely everything
-*
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+out/
 
-# 2. Allow the root files
-!.gitignore
-!README.md
+# Ignore Maven build files
+target/
+.mvn/
+target/
 
-# 3. Allow the project folders so Git can look inside them
-!RMIBanque_Client/
-!RMIBanque_Server/
-!RMIConversion_Client/
-!RMIConversion_Server/
-
-# 4. Inside the projects, ignore everything again
-RMIBanque_Client/*
-RMIBanque_Server/*
-RMIConversion_Client/*
-RMIConversion_Server/*
-
-# 5. Except the src folders (using /** to allow all files inside src) and pom.xml
-!RMIBanque_Client/src/**
-!RMIBanque_Client/pom.xml
-
-!RMIBanque_Server/src/**
-!RMIBanque_Server/pom.xml
-
-!RMIConversion_Client/src/**
-!RMIConversion_Client/pom.xml
-
-!RMIConversion_Server/src/**
-!RMIConversion_Server/pom.xml
+# Ignore OS files
+.DS_Store
+Thumbs.db
