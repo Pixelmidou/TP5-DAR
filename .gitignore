@@ -1,0 +1,31 @@
+# 1. Ignore absolutely everything by default
+*
+
+# 2. Allow the root files you want
+!.gitignore
+!README.md
+
+# 3. Allow the 4 project folders so Git can look inside them
+!RMIBanque_Client/
+!RMIBanque_Server/
+!RMIConversion_Client/
+!RMIConversion_Server/
+
+# 4. Inside the projects, ignore everything again...
+RMIBanque_Client/*
+RMIBanque_Server/*
+RMIConversion_Client/*
+RMIConversion_Server/*
+
+# 5. ...Except the src folders and the pom.xml (CRUCIAL for Maven)
+!RMIBanque_Client/src/
+!RMIBanque_Client/pom.xml
+
+!RMIBanque_Server/src/
+!RMIBanque_Server/pom.xml
+
+!RMIConversion_Client/src/
+!RMIConversion_Client/pom.xml
+
+!RMIConversion_Server/src/
+!RMIConversion_Server/pom.xml
