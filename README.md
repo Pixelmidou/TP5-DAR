@@ -36,13 +36,6 @@ TP5_DevAppReparties/
 2. Lancez `ConversionClient.java`.
 3. Le client affiche le résultat de la conversion dans la console.
 
-### 📸 Captures d'écran (Activité 5-1)
-*(Remplacez ces textes par vos captures d'écran IntelliJ)*
-- **Serveur en cours d'exécution :** `![Capture Serveur Conversion](lien_image)` 
-- **Client en cours d'exécution :** `![Capture Client Conversion](lien_image)`
-
----
-
 # 🔵 Activité 5-2 : Service de Banque (RMI + JNDI + Scanner)
 
 ## Architecture
@@ -105,13 +98,6 @@ Réponse du Serveur : Code: 101 | Solde: 1500.0 | Date: Mon Nov 02 22:43:26 WAT 
 Votre choix : 3
 Fermeture du client. Au revoir !
 ```
-
-### 📸 Captures d'écran (Activité 5-2)
-*(Remplacez ces textes par vos captures d'écran IntelliJ)*
-- **Serveur Banque (JNDI) :** `![Capture Serveur Banque](lien_image)`
-- **Client Banque interactif (Scanner) :** `![Capture Client Banque](lien_image)`
-
----
 
 ## 💡 Synthèse
 Ce TP a permis de mettre en œuvre le cycle de vie complet d'un service distant :
